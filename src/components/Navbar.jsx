@@ -13,13 +13,11 @@ const Navbar = () => {
   }
 
   const navItems = [
-    { link: "Overview", path: "home" },
-    { link: "Feature", path: "feature" },
-    { link: "About", path: "about" },
-    { link: "Pricing", path: "pricing" },
+    { link: "Nosotros", path: "home" },
+    { link: "Programas", path: "feature" },
+    { link: "R.C.F.", path: "about" },
+    { link: "Admisión", path: "pricing" },
   ]
-
-
 
   return (
     <>
@@ -48,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className={`space-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+      <div className={`space-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0 z-20" : "hidden"}`}>
         {
           navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-80} key={link} to={path} className='block text-white hover:text-gray-300' onClick={toggleMenu}>{link}</Link>)
         }
