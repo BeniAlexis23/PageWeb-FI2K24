@@ -54,7 +54,7 @@ const Home = () => {
     return (
         <>
             {/*Carousel*/}
-            <div className='max-w-[1400px] h-[790px] w-full m-auto py-24 px-4 relative group'>
+            <div className='max-w-[1400px] h-[790px] w-full m-auto py-28 px-4 relative group'>
                 <div style={{ backgroundImage: `url(${sliders[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
                 </div>
                 {/*Left Arrow*/}
@@ -74,7 +74,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="md:px-12 p-4 max-w-screen-2xl mx-auto" id='home'>
+            <div className="md:px-14 p-4 max-w-screen-2xl mx-auto" id='home'>
                 <Banner banner={banner1} heading="UNDC - Facultad de Ingeniería" subheading="El graduado en Ingeniería de Sistemas tendrá el potencial para convertirse en un profesional Exitoso y contribuir al crecimiento y desarrollo en el sector de la tecnología e informática, son sólidos conocimientos." />
             </div>
         </>

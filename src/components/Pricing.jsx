@@ -16,7 +16,7 @@ const Pricing = () => {
     ]
 
     return (
-        <div className="md:px-14 p-4 max-w-s mx-auto py-10" id="pricing">
+        <div className="md:px-14 p-4 max-w-screen-2xl mx-auto py-10" id="pricing">
             <div className="text-center">
                 <h2 className="md:text-5xl text-3xl font-extrabold mb-2">Actividades Académicas</h2>
                 <p className="text-tartiary md:w-1/3 mx-auto px-4">asdasd sd  sdsds  sdsd sdsef f f ffdf df fdefd asfegerg fdff df fd dfdfaasds as asdas asdasd</p>
