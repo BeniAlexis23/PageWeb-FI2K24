@@ -2,7 +2,8 @@ import { useState } from 'react';
 import logo from '../assets/es-undc.png'
 import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
-import { Link } from 'react-scroll';
+//import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -13,7 +14,7 @@ const Navbar = () => {
   }
 
   const navItems = [
-    { link: "Nosotros", path: "home" },
+    { link: "Nosotros", path: "/nosotros"  },
     { link: "Programas", path: "feature" },
     { link: "R.C.F.", path: "about" },
     { link: "Admisión", path: "pricing" },
