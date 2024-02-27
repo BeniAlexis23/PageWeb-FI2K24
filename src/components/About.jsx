@@ -14,7 +14,7 @@ const About = () => {
                     variants={fadeIn("right", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+                    viewport={{ once: true, amount: 0.7 }}
                     className='md:w-1/2'>
                     <img src={aboutImg} alt="" />
                 </motion.div>
@@ -23,7 +23,7 @@ const About = () => {
                     variants={fadeIn("left", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+                    viewport={{ once: true, amount: 0.7 }}
                     className='md:w-2/5'>
                     <h2 className='md:text-5xl text-3xl font-bold mb-5 leading-normal'>Sin saber leer ni escribir.</h2>
                     <p className='text-tartiary text-lg mb-7'>anfaja djafdi ni  dfndfnjd difjdif d ji  dfdjfdjfjd jdfjaisduasfksa sdsndns sndsd sji  jds j sdkasdi sidsji s jsi si j isjdiasndsid sjdsdsj</p>
@@ -35,7 +35,7 @@ const About = () => {
                     variants={fadeIn("up", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+                    viewport={{ once: true, amount: 0.7 }}
                     className='md:w-1/2'>
                     <img src={aboutImg2} alt="" />
                 </motion.div>
@@ -44,7 +44,7 @@ const About = () => {
                     variants={fadeIn("right", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+                    viewport={{ once: true, amount: 0.7 }}
                     className='md:w-2/5'>
                     <h2 className='md:text-5xl text-3xl font-bold mb-5 leading-normal'>Sin saber leer ni escribir.</h2>
                     <p className='text-tartiary text-lg mb-7'>anfaja djafdi ni  dfndfnjd difjdif d ji  dfdjfdjfjd jdfjaisduasfksa sdsndns sndsd sji  jds j sdkasdi sidsji s jsi si j isjdiasndsid sjdsdsj</p>
