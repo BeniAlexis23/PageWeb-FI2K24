@@ -35,7 +35,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className='space-x-12 hidden md:flex items-center'>
-            <a href='/' className='hidden lg:flex items-center hover:text-secondary'><GrLanguage className='mr-2' /><span>Language</span></a>
+            <a href='#' className='hidden lg:flex items-center hover:text-secondary'><GrLanguage className='mr-2' /><span>Language - ES</span></a>
             <button className='bg-primary py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-secondary'>Contacto</button>
           </div>
           <div className='md:hidden'>

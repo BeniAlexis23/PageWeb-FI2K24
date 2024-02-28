@@ -7,6 +7,10 @@ import banner5 from '../assets/banner5.jpg';
 import Banner from '../shared/Banner';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
+// motion
+import { motion } from 'framer-motion';
+// variants
+import { fadeIn } from '../variants';
 
 const Home = () => {
 
@@ -54,26 +58,32 @@ const Home = () => {
     return (
         <>
             {/*Carousel*/}
-            <div className='max-w-[1400px] h-[790px] w-full m-auto py-28 px-4 relative group'>
-                <div style={{ backgroundImage: `url(${sliders[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
+            <motion.div
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: true, amount: 0.7 }}
+            >
+                <div className='max-w-[1400px] h-[790px] w-full m-auto py-28 px-4 relative group'>
+                    <div style={{ backgroundImage: `url(${sliders[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
+                    </div>
+                    {/*Left Arrow*/}
+                    <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer'>
+                        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+                    </div>
+                    {/*Right Arrow*/}
+                    <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer'>
+                        <BsChevronCompactRight onClick={nextSlide} size={30} />
+                    </div>
+                    <div className='flex top-4 justify-center py-2'>
+                        {sliders.map((slide, slideIndex) => (
+                            <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
+                                <RxDotFilled />
+                            </div>
+                        ))}
+                    </div>
                 </div>
-                {/*Left Arrow*/}
-                <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer'>
-                    <BsChevronCompactLeft onClick={prevSlide} size={30} />
-                </div>
-                {/*Right Arrow*/}
-                <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer'>
-                    <BsChevronCompactRight onClick={nextSlide} size={30} />
-                </div>
-                <div className='flex top-4 justify-center py-2'>
-                    {sliders.map((slide, slideIndex) => (
-                        <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
-                            <RxDotFilled />
-                        </div>
-                    ))}
-                </div>
-            </div>
-
+            </motion.div>
             <div className="md:px-14 p-4 max-w-screen-2xl mx-auto" id='home'>
                 <Banner banner={banner1} heading="UNDC - Facultad de Ingeniería" subheading="El graduado en Ingeniería de Sistemas tendrá el potencial para convertirse en un profesional Exitoso y contribuir al crecimiento y desarrollo en el sector de la tecnología e informática, son sólidos conocimientos." />
             </div>
