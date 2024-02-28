@@ -1,6 +1,6 @@
 import '../App.css'
 import About from '../components/About'
-import Features from '../components/Features'
+import Aacademica from '../components/Aacademica'
 import Home from '../components/Home'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
@@ -12,7 +12,7 @@ const Inicio = () => {
         <>
             <Navbar />
             <Home />
-            <Features />
+            <Aacademica />
             <About />
             <Pricing />
             <Newsletter />
