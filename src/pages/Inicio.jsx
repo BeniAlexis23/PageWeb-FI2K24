@@ -4,7 +4,7 @@ import Aacademica from '../components/Aacademica'
 import Home from '../components/Home'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
-import Pricing from '../components/Pricing'
+import SInformacion from '../components/SInformacion'
 import Footer from '../shared/Footer'
 
 const Inicio = () => {
@@ -14,7 +14,7 @@ const Inicio = () => {
             <Home />
             <Aacademica />
             <About />
-            <Pricing />
+            <SInformacion />
             <Newsletter />
             <Footer />
         </>
