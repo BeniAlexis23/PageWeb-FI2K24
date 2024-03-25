@@ -222,7 +222,7 @@ const Nosotros = () => {
               </div>
               <div class="text-center py-8 sm:py-6">
                 <p class="text-xl text-gray-700 font-bold mb-2">Dr. Guido Larico Uchamaco</p>
-                <p class="text-base text-gray-400 font-normal">Director (e) de la Unidad de RSU de la Facultad de Ingeniería</p>
+                <p class="text-base text-gray-400 font-normal">Secretario Académico (e) de la Facultad de Ingeniería</p>
               </div>
             </div>
           </motion.div>

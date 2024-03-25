@@ -35,8 +35,8 @@ const SInformacion = () => {
                     <a className="bg-primary text-white transition-all duration-300 rounded hover:bg-secondary h-12 lg:text-lg text-sm flex shadow-lg items-center justify-center hover:text-gray-300 cursor-pointer" href="https://tramite.undc.edu.pe/" target="_blank" >
                         <AiOutlineDeliveredProcedure />&nbsp;<span>TRAMITE DOCUMENTARIO</span>
                     </a>
-                    <a className="bg-primary text-white transition-all duration-300 rounded hover:bg-secondary h-12 lg:text-lg text-sm flex shadow-lg items-center justify-center hover:text-gray-300 cursor-pointer" href="https://www.undc.edu.pe/idiomas/" target="_blank" >
-                        <GrLanguage />&nbsp;<span>CENTRO DE IDIOMAS</span>
+                    <a className="bg-primary text-white transition-all duration-300 rounded hover:bg-secondary h-12 lg:text-lg text-sm flex shadow-lg items-center justify-center hover:text-gray-300 cursor-pointer" href="https://vri.undc.edu.pe/gedipi/" target="_blank" >
+                        <GrLanguage />&nbsp;<span>GEDIPI</span>
                     </a>
                 </div>
             </div>
