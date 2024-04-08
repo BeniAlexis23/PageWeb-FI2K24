@@ -49,7 +49,7 @@ const Posgrado = () => {
                     <p class="text-sm text-justify lg:mr-10">Docente universitaria de la Universidad Peruana los Andes Sede la Merced, coordinadora de Asuntos 
                     Académicos del periodo académico 2010-I al 2016-II, Responsable de investigación en el periodo Académico 2017-I y responsable de posgrado durante 
                     el periodo 2017-II; docente universitario en la Universidad Nacional de Huancavelica en la Escuela Profesional de Ingeniería de Sistemas en el 
-                    periodo académico 2018-I y 2018-I, jefa del área de producción de la Escuela Profesional de Ingeniería de Sistemas. Doctora en Sistemas de 
+                    periodo académico 2018-I y 2018-II, jefa del área de producción de la Escuela Profesional de Ingeniería de Sistemas. Doctora en Sistemas de 
                     Ingeniería de la Universidad Nacional de Centro del Perú, Magister en Administración, mención : Gestión de Proyectos de la Universidad Nacional 
                     del Centro, Egresada de la segunda especialización en didáctica universitaria de la Universidad Peruana Los Andes, Egresada de la maestría en 
                     docencia universitaria de la Universidad Peruana Los Andes.</p>
