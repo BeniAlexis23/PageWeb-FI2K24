@@ -14,10 +14,10 @@ const Navbar = () => {
   }
 
   const navItems = [
-    { link: "Facultad", path: "/facultad"  },
+    { link: "Facultad", path: "/facultad", subMenu: ['Opción 1', 'Opción 2', 'Opción 3'] },
     { link: "Departamento", path: "/departamento" },
     { link: "Escuela", path: "/escuela" },
-    { link: "Investigacion", path: "/investigacion" },
+    { link: "Investigación", path: "/investigacion" },
     { link: "Posgrado", path: "/posgrado" },
   ]
 
