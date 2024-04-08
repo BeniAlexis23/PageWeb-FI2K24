@@ -6,9 +6,12 @@ import Escuela from '../pages/Escuela';
 import Posgrado from '../pages/Posgrado';
 import Investigacion from '../pages/Investigacion';
 
+import ScrollToTop from './ScrollToTop';
+
 const Rutas = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/facultad" element={<Facultad />} />
