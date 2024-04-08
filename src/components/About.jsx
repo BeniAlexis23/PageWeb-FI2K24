@@ -52,7 +52,7 @@ const About = () => {
                     viewport={{ once: true, amount: 0.7 }}
                     className='md:w-2/5 lg:ml-16'>
                     <h2 className='md:text-5xl text-3xl font-bold mb-5 leading-normal'>V CIISIC - 2023</h2>
-                    <p className='text-tartiary text-justify text-lg mb-7'>El “V CONGRESO INTERNACIONAL DE INGENIERÍA DE SISTEMAS E INVESTIGACÓN CIENTÍFICA”,
+                    <p className='text-tartiary text-justify text-lg mb-7'>El “V CONGRESO INTERNACIONAL DE INGENIERÍA DE SISTEMAS E INVESTIGACIÓN CIENTÍFICA”,
                         cuyo eje principal gira entorno a la interrogante ¿Cómo se aplican los métodos y técnicas de la Ingeniería de Sistemas en la
                         Transformación Digital de las organizaciones? ¿Cómo potenciar las investigaciones científicas en el pre y post grado peruano
                         en función a las tecnologías de información y comunicación?, es un aporte fundamental en la diseminación de información y
