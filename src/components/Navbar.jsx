@@ -14,10 +14,11 @@ const Navbar = () => {
   }
 
   const navItems = [
-    { link: "Nosotros", path: "/nosotros"  },
-    { link: "Programas", path: "Aacademica" },
-    { link: "R.C.F.", path: "about" },
-    { link: "Admisión", path: "pricing" },
+    { link: "Facultad", path: "/facultad"  },
+    { link: "Departamento", path: "/departamento" },
+    { link: "Escuela", path: "/escuela" },
+    { link: "Investigacion", path: "/investigacion" },
+    { link: "Posgrado", path: "/posgrado" },
   ]
 
   return (
