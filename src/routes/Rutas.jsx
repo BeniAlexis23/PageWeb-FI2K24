@@ -10,7 +10,8 @@ import ScrollToTop from './ScrollToTop';
 
 const Rutas = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/facultad" element={<Facultad />} />
